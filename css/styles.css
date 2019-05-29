@@ -348,25 +348,30 @@
     margin-bottom: 4px;
   }
   #main-nav {
-    margin-top: 25px;
+    width: 85%;
+    display: flex;
+    align-items: flex-start;
     overflow-x: scroll;
-    display: none;
   }
   .navbar-nav {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .nav-item {
+    min-width: 150px;
+    float: left;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 0;
+    text-align: center;
   }
   .nav-item a {
     text-decoration: none;
     color: #9f9f9f;
-    padding: 0 20px;
     padding-bottom: 0px;
     font-size: 14px;
-  }
-  #main-nav li a:active {
-    border-bottom: 0;
-    color: #2055aa;
   }
   .posts {
     margin: 12px;
