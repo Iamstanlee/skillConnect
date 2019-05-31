@@ -1,6 +1,6 @@
 .body {
   margin: 0;
-  font-family: 'Product Sans';
+  font-family: 'Roboto', sans-serif;
   background-color: #f7f9fc;
 }
 .cover {
@@ -262,7 +262,7 @@
 
   #card {
     transition: 0.3s;
-    margin: 0 15px;
+    margin: 0px;
     background-color: #fff;
     padding-bottom: 50px;
   }
@@ -306,10 +306,12 @@
     object-fit: cover;
   }
   .followers {
-    margin: 0 4px;
+    padding: 0;
   }
+
   .followerCount {
-    margin: 0;
+    margin: 10px auto;
+
     justify-content: center;
     align-items: center;
   }
@@ -328,31 +330,33 @@
   }
   #countType {
     color: #9f9f9f;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   #countId {
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 21px;
   }
   #lastLoginContainer {
-    position: relative;
-    top: 10px;
-    right: 30px;
     display: flex;
+    position: relative;
+    top: 12px;
+    left: -24px;
     flex-direction: column;
-    justify-content: flex-start;
-    font-size: 14px;
+    justify-content: center;
+    align-items: center;
   }
   #lastLoginContainer div {
     margin-bottom: 4px;
   }
   #main-nav {
     width: 85%;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     align-items: flex-start;
     overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
   .navbar-nav {
     display: flex;
@@ -368,8 +372,8 @@
   .nav-item a {
     text-decoration: none;
     color: #9f9f9f;
-    padding-bottom: 0px;
-    font-size: 14px;
+    padding-bottom: 6px;
+    font-size: 15px;
   }
   .posts {
     margin: 12px;
